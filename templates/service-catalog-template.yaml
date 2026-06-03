@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-service
+  description: Example service catalog template
+spec:
+  type: service
+  lifecycle: experimental
+  owner: platform
